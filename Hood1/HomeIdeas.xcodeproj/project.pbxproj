@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD9312512E8EB06F00774181 /* GLib in Frameworks */ = {isa = PBXBuildFile; productRef = DD9312502E8EB06F00774181 /* GLib */; };
+		DDFBA4952E86B55B00C19207 /* HomeIdeas/Resources1/Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDFBA4902E86B55B00C19207 /* HomeIdeas/Resources1/Raleway-Light.ttf */; };
+		DDFBA4962E86B55B00C19207 /* HomeIdeas/Resources1/Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDFBA4912E86B55B00C19207 /* HomeIdeas/Resources1/Raleway-Regular.ttf */; };
+		DDFBA4972E86B55B00C19207 /* HomeIdeas/Resources1/Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDFBA4922E86B55B00C19207 /* HomeIdeas/Resources1/Raleway-Medium.ttf */; };
+		DDFBA4982E86B55B00C19207 /* HomeIdeas/Resources1/Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDFBA4932E86B55B00C19207 /* HomeIdeas/Resources1/Raleway-SemiBold.ttf */; };
+		DDFBA4992E86B55B00C19207 /* HomeIdeas/Resources1/Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDFBA4942E86B55B00C19207 /* HomeIdeas/Resources1/Raleway-Bold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDFBA4872E86B55B00C19207 /* HomeIdeas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeIdeas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFBA4902E86B55B00C19207 /* HomeIdeas/Resources1/Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HomeIdeas/Resources1/Raleway-Light.ttf"; sourceTree = "<group>"; };
+		DDFBA4912E86B55B00C19207 /* HomeIdeas/Resources1/Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HomeIdeas/Resources1/Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		DDFBA4922E86B55B00C19207 /* HomeIdeas/Resources1/Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HomeIdeas/Resources1/Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		DDFBA4932E86B55B00C19207 /* HomeIdeas/Resources1/Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HomeIdeas/Resources1/Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		DDFBA4942E86B55B00C19207 /* HomeIdeas/Resources1/Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HomeIdeas/Resources1/Raleway-Bold.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DD93124E2E8EAF7700774181 /* Exceptions for "HomeIdeas" folder in "HomeIdeas" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DDFBA4862E86B55B00C19207 /* HomeIdeas */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DDFBA4892E86B55B00C19207 /* HomeIdeas */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DD93124E2E8EAF7700774181 /* Exceptions for "HomeIdeas" folder in "HomeIdeas" target */,
+			);
+			path = HomeIdeas;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDFBA4842E86B55B00C19207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9312512E8EB06F00774181 /* GLib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDFBA47E2E86B55B00C19207 = {
+			isa = PBXGroup;
+			children = (
+				DDFBA4892E86B55B00C19207 /* HomeIdeas */,
+				DDFBA4882E86B55B00C19207 /* Products */,
+				DDFBA49A2E86B55B00C19207,
+			);
+			sourceTree = "<group>";
+		};
+		DDFBA4882E86B55B00C19207 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDFBA4872E86B55B00C19207 /* HomeIdeas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDFBA49A2E86B55B00C19207 = {
+			isa = PBXGroup;
+			children = (
+				DDFBA4902E86B55B00C19207 /* HomeIdeas/Resources1/Raleway-Light.ttf */,
+				DDFBA4912E86B55B00C19207 /* HomeIdeas/Resources1/Raleway-Regular.ttf */,
+				DDFBA4922E86B55B00C19207 /* HomeIdeas/Resources1/Raleway-Medium.ttf */,
+				DDFBA4932E86B55B00C19207 /* HomeIdeas/Resources1/Raleway-SemiBold.ttf */,
+				DDFBA4942E86B55B00C19207 /* HomeIdeas/Resources1/Raleway-Bold.ttf */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDFBA4862E86B55B00C19207 /* HomeIdeas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFBA4922E86B55C00C19207 /* Build configuration list for PBXNativeTarget "HomeIdeas" */;
+			buildPhases = (
+				DDFBA4832E86B55B00C19207 /* Sources */,
+				DDFBA4842E86B55B00C19207 /* Frameworks */,
+				DDFBA4852E86B55B00C19207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DDFBA4892E86B55B00C19207 /* HomeIdeas */,
+			);
+			name = HomeIdeas;
+			packageProductDependencies = (
+				DD9312502E8EB06F00774181 /* GLib */,
+			);
+			productName = HomeIdeas;
+			productReference = DDFBA4872E86B55B00C19207 /* HomeIdeas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDFBA47F2E86B55B00C19207 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					DDFBA4862E86B55B00C19207 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+				};
+			};
+			buildConfigurationList = DDFBA4822E86B55B00C19207 /* Build configuration list for PBXProject "HomeIdeas" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDFBA47E2E86B55B00C19207;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DD93124F2E8EB06F00774181 /* XCLocalSwiftPackageReference "Packages/GLib" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DDFBA4882E86B55B00C19207 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDFBA4862E86B55B00C19207 /* HomeIdeas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDFBA4852E86B55B00C19207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFBA4952E86B55B00C19207 /* HomeIdeas/Resources1/Raleway-Light.ttf in Resources */,
+				DDFBA4962E86B55B00C19207 /* HomeIdeas/Resources1/Raleway-Regular.ttf in Resources */,
+				DDFBA4972E86B55B00C19207 /* HomeIdeas/Resources1/Raleway-Medium.ttf in Resources */,
+				DDFBA4982E86B55B00C19207 /* HomeIdeas/Resources1/Raleway-SemiBold.ttf in Resources */,
+				DDFBA4992E86B55B00C19207 /* HomeIdeas/Resources1/Raleway-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDFBA4832E86B55B00C19207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DDFBA4902E86B55C00C19207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDFBA4912E86B55C00C19207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDFBA4932E86B55C00C19207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HomeIdeas/HomeIdeas.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HomeIdeas/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ОFs.HomeTime";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera to let you take and upload photos directly within the app.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baynard.hometime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DDFBA4942E86B55C00C19207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HomeIdeas/HomeIdeas.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HomeIdeas/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ОFs.HomeTime";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera to let you take and upload photos directly within the app.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baynard.hometime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDFBA4822E86B55B00C19207 /* Build configuration list for PBXProject "HomeIdeas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFBA4902E86B55C00C19207 /* Debug */,
+				DDFBA4912E86B55C00C19207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDFBA4922E86B55C00C19207 /* Build configuration list for PBXNativeTarget "HomeIdeas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFBA4932E86B55C00C19207 /* Debug */,
+				DDFBA4942E86B55C00C19207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		DD93124F2E8EB06F00774181 /* XCLocalSwiftPackageReference "Packages/GLib" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/GLib;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD9312502E8EB06F00774181 /* GLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GLib;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DDFBA47F2E86B55B00C19207 /* Project object */;
+}
