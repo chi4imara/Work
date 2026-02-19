@@ -1,0 +1,35 @@
+import CoreText
+import SwiftUI
+
+class FontManager {
+    static let shared = FontManager()
+    
+    private init() {}
+    
+    func reg() {
+        let fonts = [
+            "PlayfairDisplay-Regular",
+            "PlayfairDisplay-Medium",
+            "PlayfairDisplay-SemiBold",
+            "PlayfairDisplay-Bold",
+            "PlayfairDisplay-ExtraBold",
+            "PlayfairDisplay-Black",
+            "PlayfairDisplay-Italic",
+            "PlayfairDisplay-MediumItalic",
+            "PlayfairDisplay-SemiBoldItalic",
+            "PlayfairDisplay-BoldItalic",
+            "PlayfairDisplay-ExtraBoldItalic",
+            "PlayfairDisplay-BlackItalic"
+        ]
+        
+        for font in fonts {
+            if let url = Bundle.main.url(forResource: font, withExtension: "ttf") {
+                var error: Unmanaged<CFError>?
+                let success = CTFontManagerRegisterFontsForURL(url as CFURL, .process, &error)
+                if !success {
+                    print("Failed to register font: \(font)")
+                }
+            }
+        }
+    }
+}
